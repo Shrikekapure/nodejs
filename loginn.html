@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <form action="http://localhost:9800/logincheck" method="get">
+        <table>
+            <tr>
+                <td>
+					<label name="uid" value="uid" for="uid">UID :</label>
+                </td>
+                <td>
+                    <input  type="text" name="username" id="uid" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label name="pwd" value="pwd" for="pwd_fr">PWD :</label>
+                </td>
+                <td>
+                    <input type="password" name="pwd" id="pwd_fr" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit" value="login">Submit</button>
+                </td>
+                <td>
+                    <button type="reset" value="clear">Clear</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
