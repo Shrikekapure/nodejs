@@ -1,8 +1,8 @@
 var exp = require('express');
 var app = exp();
 
-app.get('/login',function(req,res){
-       res.sendFile(__dirname+"/login.html");
+app.get('/loginn',function(req,res){
+       res.sendFile(__dirname+"/loginn.html");
 });
 app.get('/logincheck',function(req,res){
 	if(req.query.username=="object" && req.query.pwd=="knowit")
